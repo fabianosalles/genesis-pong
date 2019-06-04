@@ -3,4 +3,10 @@
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>$(regend)\regen</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\out</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>$(ProjectDir)out\rom.bin</LocalDebuggerCommandArguments>
+  </PropertyGroup>
 </Project>

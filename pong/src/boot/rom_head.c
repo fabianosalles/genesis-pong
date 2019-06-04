@@ -23,9 +23,9 @@ const struct
     char region[16];                /* Country Support (16) */
 } rom_header = {
     "SEGA MEGA DRIVE ",
-    "(C)FLEMTEAM 2013",
-    "SAMPLE PROGRAM                                  ",
-    "SAMPLE PROGRAM                                  ",
+    "(C)FABIANO  2019",
+    "SIMPLE PONG CLONE                               ",
+    "SIMPLE PONG CLONE                               ",
     "GM 00000000-00",
     0x0000,
     "JD              ",
